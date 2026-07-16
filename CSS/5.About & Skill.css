@@ -1,0 +1,22 @@
+#about p {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  max-width: 800px;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.skill-tag {
+  background-color: var(--surface-color);
+  border: 1px solid var(--border-color);
+  color: var(--text-primary);
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
